@@ -1,12 +1,10 @@
 # BERT Model with Regularized Dropout (r-drop)
-Install the packages needed:  
-
+Install the packages needed:
 ```
 pip install -r requirements.txt
 ```
   
-Test the code:  
-
+Test the code:
 ```
 python need_BERT_r-drop.py
 ```
