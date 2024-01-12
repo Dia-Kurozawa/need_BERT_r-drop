@@ -1,1 +1,1 @@
-# need_BERT_r-drop
+# BERT Model with Regularized Dropout (r-drop)
