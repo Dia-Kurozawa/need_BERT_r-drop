@@ -8,8 +8,6 @@ from transformers import set_seed, BertForSequenceClassification, BertTokenizer,
 set_seed(42)
 from sklearn.metrics import confusion_matrix, classification_report, accuracy_score, ndcg_score
 from sklearn.model_selection import train_test_split
-import os
-os.chdir('/xxxx/xxxx/xxxx')
 
 df = pd.read_excel('novel_generate_v2.xlsx', keep_default_na=False)
 text_values = df.text.values.tolist()
